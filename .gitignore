@@ -36,7 +36,6 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
 
 ### Metals ###
 .bloop/
@@ -76,3 +75,4 @@ cpg.bin
 node_modules/
 jdeploy-bundle/
 jdeploy/
+config.bat

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite build -c vite.worker.config.mjs && vite dev",
+    "dev": "node api.js && vite build -c vite.worker.config.mjs && vite dev",
     "build": "vite build --logLevel error -c vite.worker.config.mjs && vite build --logLevel error",
     "preview": "vite preview"
   },
